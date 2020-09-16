@@ -1,0 +1,12 @@
+# Mac files
+.DS_Store
+
+# Dependency directories
+node_modules/
+
+# Next files
+.next
+
+# Env files
+.env
+

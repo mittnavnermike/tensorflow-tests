@@ -1,0 +1,51 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@next/bundle-analyzer": "^9.5.2",
+    "@sanity/block-content-to-react": "^2.0.7",
+    "@sanity/client": "^1.149.18",
+    "@tensorflow-models/blazeface": "^0.0.5",
+    "@tensorflow-models/handpose": "^0.0.6",
+    "@tensorflow/tfjs-backend-cpu": "^2.4.0",
+    "@tensorflow/tfjs-backend-webgl": "^2.4.0",
+    "@tensorflow/tfjs-converter": "^2.4.0",
+    "@tensorflow/tfjs-core": "^2.4.0",
+    "color": "^3.1.2",
+    "favicons-webpack-plugin": "^4.2.0",
+    "flickity": "^2.2.1",
+    "framer-motion": "^2.4.2",
+    "lazysizes": "^5.2.2",
+    "nanoid": "^3.1.12",
+    "next": "9.5.2",
+    "next-compose-plugins": "^2.2.0",
+    "next-svgr": "^0.0.2",
+    "oembed-parser": "^1.4.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-intersection-observer": "^8.26.2",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@storybook/addon-actions": "^6.0.12",
+    "@storybook/addon-essentials": "^6.0.12",
+    "@storybook/addon-links": "^6.0.12",
+    "@storybook/react": "^6.0.12",
+    "@types/node": "^14.0.27",
+    "@types/styled-components": "^5.1.2",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-styled-components": "^1.11.1",
+    "react-is": "^16.13.1",
+    "typescript": "^3.9.7",
+    "typescript-styled-plugin": "^0.15.0"
+  }
+}
